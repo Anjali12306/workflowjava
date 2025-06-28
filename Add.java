@@ -1,11 +1,7 @@
-import java.util.Scanner;
-class Add{
+public class Add{
   public static void main(String[] args){
-      Scanner sc=new Scanner(System.in);
-      System.out.print("enter first number");
-      int num1=sc.nextInt();
-      System.out.print("enter second number");
-      int num2=sc.nextInt();
+      int num1=10;
+      int num2=20;
       int sum=num1+num2;
       System.out.println("sum= " +sum);
   }
