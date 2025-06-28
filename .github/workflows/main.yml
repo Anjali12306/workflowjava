@@ -25,3 +25,8 @@ jobs:
 
     - name: Run Java program
       run: java Add
+    -name: Compile Java program
+      run: javac HelloWorld.java
+
+    - name: Run Java program
+      run: java HelloWorld
